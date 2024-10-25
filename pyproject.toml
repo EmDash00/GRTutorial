@@ -1,0 +1,19 @@
+[project]
+name = "gr-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gr>=1.24.0",
+    "numpy>=1.26.4",
+    "pyqt5>=5.15.11",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
+[tool.basedpyright]
+venvPath = "."
+venv = ".venv"
